@@ -18,7 +18,7 @@ router
     // set up get one, put and delete at /api/users/:id
 router
     .route('/:id')
-    .get(getUserById)
+    .get(getUserById) // TODO After adding friend functionality and thought functionality
     .put(updateUser)
     .delete(deleteUser);
 
