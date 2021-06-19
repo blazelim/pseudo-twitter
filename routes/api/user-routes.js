@@ -24,7 +24,7 @@ router
 
 router
     .route('/:id')
-    .get(getUserById) // TODO After adding friend functionality and thought functionality
+    .get(getUserById) 
     .put(updateUser)
     .delete(deleteUser);
 
